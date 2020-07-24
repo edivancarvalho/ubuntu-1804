@@ -33,6 +33,8 @@ netstat -an | grep 52698
 
 #Quinta Etapa: Instalação do Rmate no Ubuntu Server 18.04.x LTS
 ssh vaamonde@172.16.1.20
+# Para a instalação no python-pip precisará adicionar a linha abaixo;
+apt-add-repository universe
 sudo apt update
 sudo apt install python-pip
 sudo pip install rmate
