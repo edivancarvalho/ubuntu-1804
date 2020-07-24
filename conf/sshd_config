@@ -53,7 +53,7 @@ DenyUsers root
 DenyGroups root
 
 # Banner que será apresentado no momento do acesso remoto ao Servidor de OpenSSH, não e recomendado utilizar acentuação
-Banner /etc/issue.net
+Banner /etc/issue.net0
 
 # O tempo após o qual o servidor será desconectado se o usuário não tiver efetuado login com êxito.
 LoginGraceTime 50
